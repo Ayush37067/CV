@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Me</title>
+  </head>
+  <body>
+    <h2>My Details</h2>
+    <p>My Address: Ludhiana,Punjab</p>
+    <p>My Phone Number: <a href="tel:7289936655">7289936655</a></p>
+    <hr>
+      <h2>Contact Me</h2>
+    <form action="mailto:theayconic1@gmail.com" method="post" enctype="text/plain"> <!-- here after you press submit due to the action being set to mail to it will open a mail tab with all the form info ready for sending to that address. enctype tells that the form info should be plain text in our case. without it the mail message will be some weird sort of symbols instead of exactly what we wrote in our form. method post will post the data -->
+      <label>Your Name:</label>
+      <input type="text" name="My Name" value=""> <br>
+      <label>Your Email:</label>
+      <input type="email" name="My Email" value=""> <br>
+      <label>Your Message:</label> <br>
+      <textarea name="My message" rows="5" cols="10"></textarea> <br>
+      <input type="submit" name="" value="Submit">
+    </form>
+  </body>
+</html>
